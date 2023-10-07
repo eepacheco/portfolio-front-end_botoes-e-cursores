@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Botões e Cursores</title>
+    </head>
+
+    <style>
+        body{
+            background-color: #0B0911;
+            color: white;
+            text-align: center;
+        }
+
+        table{
+            border-spacing: 0;
+            border: 5px solid #1C162C;
+            border-radius: 5px;
+        }
+        
+        td, tr, th{
+            margin: 0;
+            padding: 32px;
+            
+        }
+
+        .btn{
+            padding: 16px; 
+            border-radius: 50px;
+        }
+
+        .btn-default-primary{
+            background-color: #8257E5; 
+            
+        }
+
+        .btn-default-secondary{
+            background-color: #3C3748;
+        }
+
+        .btn-default-tertiary{
+            background-color: none;
+        }
+
+        .btn-hover-primary{
+            background-color: #9674E5;
+        }
+
+        .btn-hover-secondary{
+            background-color: #6A617F;
+        }
+
+        .btn-hover-tertiary{
+            background-color: none;
+        }
+
+        .btn-focus-primary{
+            background-color: #8257E5;
+            border: solid 3px #FFF;
+        }
+
+        .btn-focus-secondary{
+            background-color: #3C3748;
+            border: solid 3px #FFF;
+        }
+
+        .btn-focus-tertiary{
+            background-color: none;
+            border: solid 3px #FFF;
+        }
+
+        .btn-disabled-primary{
+            background-color: #8257E5;
+        }
+
+        .btn-disabled-secondary{
+            background-color: #3C3748;
+        }
+
+        .btn-disabled-tertiary{
+            background-color: none;
+        }
+
+        .btn-loading-primary{
+            background-color: #8257E5;
+        }
+
+        .btn-loading-secondary{
+            background-color: #3C3748;
+        }
+
+        .btn-loading-tertiary{
+            background-color: none;
+        }
+
+        .btn-movable-primary{
+            background-color: #8257E5;
+        }
+
+        .btn-movable-secondary{
+            background-color: #3C3748;
+        }
+
+        .btn-movable-tertiary{
+            background-color: none;
+        }
+    </style>
+
+    <body style="display: flex; justify-content: space-between; margin: 0; padding: 0;">
+        <section style="margin: 32px;" >
+            <article style="text-align: start;">
+                <h1 style="color: #FFF; font-size: 32px;">Tipos de botão</h1>
+                <p style="color: #FFF; font-size: 19.21px; max-width: 700px;">Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. Acompanhe abaixo um exemplo de tipos e propriedades.</p>
+            </article>
+        
+            <table>
+                <tr>
+                    <th style="background-color: #1C162C;"></th>
+                    <th style="background-color: #1C162C;">Botão primário</th>
+                    <th style="background-color: #1C162C;">Botão secundário</th>
+                    <th style="background-color: #1C162C;">Botão terciário</th>
+                    <th style="background-color: #1C162C;">Cursor</th>            
+                </tr>
+                <tr>
+                    <td style="background-color: #1C162C;">Default</td>
+                    <td>
+                        <span class="btn btn-default-primary">Default Primary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-default-secondary" >Default Secondary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-default-tertiary">Default Tertiary</span>
+                    </td>
+                    <td></td>            
+                </tr>
+                <tr>
+                    <td style="background-color: #1C162C;">Hover</td>
+                    <td>
+                        <span class="btn btn-hover-primary">Hover Primary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-hover-secondary">Hover Secondary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-hover-tertiary">Hover Tertiary</span>
+                    </td>
+                    <td></td>            
+                </tr>
+                <tr>
+                    <td style="background-color: #1C162C;">Focus</td>
+                    <td>
+                        <span class="btn btn-focus-primary">Focus Primary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-focus-secondary">Focus Secondary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-focus-tertiary">Focus Tertiary</span>
+                    </td>
+                    <td></td>            
+                </tr>
+                <tr>
+                    <td style="background-color: #1C162C;">Disabled</td>
+                    <td>
+                        <span class="btn btn-disabled-primary">Disabled Primary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-disabled-secondary">Disabled Secondary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-disabled-tertiary">Disabled Tertiary</span>
+                    </td>
+                    <td></td>            
+                </tr>
+                <tr>
+                    <td style="background-color: #1C162C;">Loading</td>
+                    <td>
+                        <span class="btn btn-loading-primary">Loading Primary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-loading-secondary">Loading Secondary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-loading-tertiary">Loading Tertiary</span>
+                    </td>
+                    <td></td>            
+                </tr>
+                <tr>
+                    <td style="background-color: #1C162C;">Movable</td>
+                    <td>
+                        <span class="btn btn-movable-primary">Movable Primary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-movable-secondary">Moveble Secondary</span>
+                    </td>
+                    <td>
+                        <span class="btn btn-movable-tertiary">Movable Tertiary</span>
+                    </td>
+                    <td></td>            
+                </tr>
+            </table>
+        </section>
+        <section style="background-color: #1C162C; width: 300px; padding: 50px;">
+            <article style="text-align: start;">
+                <h1 style="font-size: 32px;">Teste os botões</h1>
+                <p style="font-size: 19.21px;">Interaja com os botões e observe a mudança de aparência e de cursores</p>
+            </article>
+
+            <article style="display: flex; flex-direction: column;">
+                <span style="margin: 32px 0 8px 0;" class="btn btn-default-primary">Interaja comigo</span>
+                <span style="margin: 8px 0 8px 0;" class="btn btn-default-secondary">Interaja comigo</span>
+                <span style="margin: 8px 0 8px 0;" class="btn btn-default-tertiary ">Interaja comigo</span>
+            </article>
+        </section>
+    </body>
+</html>
